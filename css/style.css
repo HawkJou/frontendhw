@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft JhengHei' 'Helvetica Neue', arial, sans-serif;
+    line-height: 1.3;
+    font-size: 16px;
+    color: #3A513F;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: gold;
+} */
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 42px;
+}
+
+.nav-menu>ul {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.nav-menu>ul li {
+    padding-left: 60px;
+}
+
+.nav-menu>ul li a {
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #3A513F;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .nav-menu>ul li a:hover,
+.product-ul li>a:hover {
+    color: gold;
+} */
+
+ul li a:hover,
+.page-num a:hover {
+    color: gold;
+}
+
+
+.banner {
+    display: block;
+
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+.product a {
+    display: block;
+    text-decoration: none;
+    background-color: #E7EDE9;
+}
+
+.product a:hover {
+    color: magenta;
+}
+
+
+.section-product {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.product-nav {
+    display: block;
+    width: 300px;
+}
+
+.h3 {
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #3A513F;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.product-ul li {
+    border: 1px solid #E7EDE9;
+}
+
+.product-ul li,
+.product-ul li>a {
+    font-family: 'Microsoft JhengHei', serif;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #3A513F;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.product-ul li:first-child {
+    background-color: #E7EDE9;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    /* border: 1px solid #E7EDE9; */
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.product a {
+    display: block;
+    background-color: #E7EDE9;
+    text-decoration: none;
+    color: #3A513F;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.item {
+
+    border: 1px solid #E7EDE9;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price {
+    font-family: 'Microsoft JhengHei';
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px 18px 20px 17px;
+
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 20px 39px 20px 39px;
+    border-right: 1px solid #E7EDE9;
+}
+
+.page-container {
+
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+.page-num {
+    /* display: block; */
+
+    margin-top: 14px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #E7EDE9;
+    font-family: 'Microsoft JhengHei', serif;
+
+    font-size: 1.3rem;
+    text-align: center;
+    color: #3A513F;
+    line-height: 60px;
+    position: relative;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    width: 10px;
+    height: 10px;
+    border: 5px solid #3A513F;
+    border-color: transparent #3A513F transparent transparent;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    width: 10px;
+    height: 10px;
+    border: 5px solid #3A513F;
+    border-color: transparent transparent transparent #3A513F;
+}
+
+.page-num:hover {
+    background-color: #E7EDE9;
+}
