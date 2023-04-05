@@ -268,7 +268,7 @@ img {
 
 .product {
     /* border: 1px solid #E7EDE9; */
-    margin-left: 20px;
+    margin-left: 19px;
     margin-bottom: 16px;
 }
 
@@ -296,14 +296,14 @@ img {
     font-family: 'Microsoft JhengHei';
     font-weight: bold;
     font-size: 1.2rem;
-    padding: 20px 18px 20px 17px;
+    padding: 20px 16px 20px 15px;
 
 }
 
 .product-name {
     font-weight: bold;
     font-size: 1.3rem;
-    padding: 20px 39px 20px 39px;
+    padding: 20px 20px 20px 20px;
     border-right: 1px solid #E7EDE9;
 }
 
